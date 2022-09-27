@@ -31,8 +31,11 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 ## Program:
 /*
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
+
 Developed by: Manoj Guna Sundar Tella.
+
 RegisterNumber:  212221240026.
+/*
 ```
 USING NAND
 module comblogic(a,b,c,d,f);
@@ -57,7 +60,6 @@ assign f4 = ~(f1|f2|f3);
 not(F,f4);
 endmodule
 ```
-*/
 
 ## Output:
 ## RTL realization
